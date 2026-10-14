@@ -309,7 +309,7 @@ textarea {
   font-size: 13px;
   color: #667085;
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .hero-layout,
   .split {
     flex-direction: column;
@@ -373,7 +373,7 @@ textarea {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .container {
     width: min(100% - 32px, 1100px);
   }

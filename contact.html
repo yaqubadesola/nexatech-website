@@ -1,1 +1,132 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="NexaTech Solutions — modern digital products and technology services."><title>Contact | NexaTech Solutions</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body><header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html">Nexa<span>Tech</span></a><input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation"><label for="nav-toggle" class="burger"><span></span><span></span><span></span></label><nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html">Contact</a></nav></div></header><main><section class="inner-hero"><div class="container"><p class="eyebrow">LET'S TALK</p><h1>Have an idea? Let’s make it real.</h1><p>We would love to hear what you are working on.</p></div></section><section class="section"><div class="container split"><div><h2>Start a conversation</h2><p>Share a little about your project and we will help you explore the next steps.</p><div class="contact-info"><p><strong>Email:</strong> hello@nexatech.example</p><p><strong>Location:</strong> Lagos, Nigeria</p><p><strong>Hours:</strong> Monday–Friday, 9:00–17:00</p></div><p class="small-note">This is a student demonstration website. Contact details are fictional.</p></div><form class="contact-form" action="mailto:hello@nexatech.example" method="post" enctype="text/plain"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" required><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required><label for="service">Service needed</label><select id="service" name="service"><option>Web Development</option><option>Mobile Applications</option><option>UI/UX Design</option><option>Digital Consulting</option></select><label for="message">Your message</label><textarea id="message" name="message" rows="5" required></textarea><button class="btn" type="submit">Send enquiry</button><p class="small-note">Demo only: this form opens your email application; no backend is connected.</p></form></div></section></main><footer class="footer"><div class="container"><p>© 2026 NexaTech Solutions. Built with creativity and purpose.</p></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Get in touch with NexaTech Solutions to talk about your next digital project."
+    />
+    <title>Contact | NexaTech Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Nexa<span>Tech</span></a>
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+        />
+        <label for="nav-toggle" class="burger">
+          <span></span><span></span><span></span>
+        </label>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="inner-hero">
+        <div class="container">
+          <p class="eyebrow">LET'S TALK</p>
+          <h1>Have an idea? Let’s make it real.</h1>
+          <p>We would love to hear what you are working on.</p>
+        </div>
+      </section>
+      <section class="section contact-section">
+        <div class="container split contact-layout">
+          <div class="contact-copy">
+            <p class="eyebrow">A GOOD PLACE TO START</p>
+            <h2>Tell us what you have in mind.</h2>
+            <p class="contact-intro">
+              Big plan or early idea, we’re happy to chat. Share a little about
+              what you’re looking for and we’ll help you figure out a next step.
+            </p>
+            <div class="contact-info" aria-label="Contact details">
+              <div class="contact-detail">
+                <span class="contact-detail-label">EMAIL</span>
+                <a href="mailto:hello@nexatech.example"
+                  >hello@nexatech.example</a
+                >
+              </div>
+              <div class="contact-detail">
+                <span class="contact-detail-label">WHEN WE'RE AROUND</span>
+                <p>Monday–Friday, 9:00–17:00</p>
+              </div>
+            </div>
+            <p class="small-note">
+              This is a student demonstration website. Contact details are
+              fictional.
+            </p>
+          </div>
+          <form
+            class="contact-form"
+            action="mailto:hello@nexatech.example"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="contact-form-heading">
+              <h2>Send us a note</h2>
+              <p>Fill in what you can. We’ll take it from there.</p>
+            </div>
+            <label for="name">Your name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              placeholder="e.g. Alex Johnson"
+              required
+            />
+            <label for="email">Email address</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              required
+            />
+            <label for="service">What can we help with?</label>
+            <select id="service" name="service">
+              <option>Web Development</option>
+              <option>Mobile Applications</option>
+              <option>UI/UX Design</option>
+              <option>Digital Consulting</option>
+            </select>
+            <label for="message">A little about your idea</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="What are you hoping to build?"
+              required
+            ></textarea>
+            <button class="btn" type="submit">Send your message</button>
+            <p class="small-note">
+              Demo only: this form opens your email application; no backend is
+              connected.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 NexaTech Solutions. Built with creativity and purpose.</p>
+      </div>
+    </footer>
+  </body>
+</html>

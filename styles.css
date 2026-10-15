@@ -176,6 +176,13 @@ textarea {
   font-weight: 900;
   margin: auto;
 }
+.home-services .service-art {
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin: auto;
+}
 .quote,
 .soft {
   background: var(--light);
@@ -280,34 +287,111 @@ textarea {
   color: #2364cf;
 }
 .contact-info {
-  margin-top: 32px;
+  display: grid;
+  gap: 12px;
+  margin: 28px 0;
+}
+.contact-section {
+  background: #f7f9fc;
+}
+.contact-layout {
+  align-items: center;
+  gap: 54px;
+}
+.contact-copy {
+  padding: 12px 0;
+}
+.contact-copy .eyebrow {
+  margin: 0 0 10px;
+  color: #2364cf;
+}
+.contact-copy h2 {
+  margin: 0 0 14px;
+}
+.contact-intro {
+  max-width: 460px;
+  color: #586273;
+  font-size: 18px;
+}
+.contact-detail {
+  padding: 14px 18px;
+  border: 1px solid #e3eaf4;
+  border-radius: 10px;
+  background: white;
+}
+.contact-detail-label {
+  display: block;
+  color: #667085;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+.contact-detail p,
+.contact-detail a {
+  display: inline-block;
+  margin: 3px 0 0;
+  font-weight: 500;
+}
+.contact-detail a {
+  color: #2364cf;
+}
+.contact-detail a:hover,
+.contact-detail a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  background: #f4f7fb;
-  padding: 30px;
-  border-radius: 12px;
+  gap: 12px;
+  background: white;
+  padding: 34px;
+  border: 1px solid #e3eaf4;
+  border-radius: 16px;
+  box-shadow: 0 14px 40px #1f29370d;
+}
+.contact-form-heading h2 {
+  margin: 0;
+  font-size: 26px;
+}
+.contact-form-heading p {
+  margin: 4px 0 8px;
+  color: #667085;
 }
 .contact-form label {
   font-weight: 700;
+  font-size: 14px;
 }
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
   width: 100%;
-  border: 1px solid #a9b4c4;
-  border-radius: 6px;
-  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 12px 13px;
+  background: #fbfcfe;
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: 3px solid #3882f633;
+  border-color: var(--blue);
   background: white;
+}
+.contact-form textarea {
+  resize: vertical;
 }
 .contact-form .btn {
   align-self: flex-start;
+  margin-top: 4px;
 }
 .small-note {
   font-size: 13px;
   color: #667085;
+}
+.contact-copy > .small-note,
+.contact-form > .small-note {
+  margin-bottom: 0;
 }
 @media (max-width: 768px) {
   .hero-layout,
@@ -401,6 +485,13 @@ textarea {
     padding: 45px 0 60px;
   }
   .contact-form {
-    padding: 20px;
+    width: 100%;
+    padding: 24px;
+  }
+  .contact-layout {
+    gap: 34px;
+  }
+  .contact-copy {
+    width: 100%;
   }
 }

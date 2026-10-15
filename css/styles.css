@@ -37,10 +37,7 @@ textarea {
   width: min(1100px, calc(100% - 40px));
   margin-inline: auto;
 }
-.site-header,
-.hero,
-.inner-hero,
-.footer {
+.site-header {
   background: var(--dark);
   color: var(--white);
 }
@@ -77,46 +74,14 @@ textarea {
 .burger {
   display: none;
 }
-.hero {
-  padding: 60px 0 105px;
-}
-.hero-layout {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 55px;
-}
-.hero-copy {
-  flex: 1 1 48%;
-}
-.hero-art {
-  flex: 1 1 45%;
-  min-width: 0;
-}
-.hero-art img {
-  width: 100%;
-  border-radius: 10px;
-}
+
 .eyebrow {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 2px;
   color: #9fc4ff;
 }
-.hero h1,
-.inner-hero h1 {
-  font-size: 48px;
-  line-height: 1.12;
-  font-weight: 900;
-  color: var(--white);
-  margin: 12px 0;
-}
-.hero-sub,
-.inner-hero p:not(.eyebrow) {
-  font-size: 18px;
-  color: var(--light);
-  max-width: 570px;
-}
+
 .btn {
   display: inline-block;
   background: var(--blue);
@@ -236,20 +201,7 @@ textarea {
   border-color: white;
   color: var(--blue);
 }
-.footer {
-  text-align: center;
-  padding: 30px 0;
-  font-size: 14px;
-}
-.footer p {
-  margin: 0;
-}
-.inner-hero {
-  padding: 65px 0 85px;
-}
-.inner-hero h1 {
-  max-width: 760px;
-}
+
 .split {
   display: flex;
   gap: 65px;
@@ -394,19 +346,8 @@ textarea {
   margin-bottom: 0;
 }
 @media (max-width: 768px) {
-  .hero-layout,
   .split {
     flex-direction: column;
-  }
-  .hero {
-    padding: 40px 0 70px;
-  }
-  .hero-copy,
-  .hero-art {
-    width: 100%;
-  }
-  .hero-art {
-    max-width: 650px;
   }
   .nav-wrap {
     position: relative;
@@ -461,10 +402,7 @@ textarea {
   .container {
     width: min(100% - 32px, 1100px);
   }
-  .hero h1,
-  .inner-hero h1 {
-    font-size: 38px;
-  }
+  
   .section-title,
   .split h2 {
     font-size: 30px;
@@ -480,9 +418,6 @@ textarea {
   }
   .cta {
     padding: 25px;
-  }
-  .inner-hero {
-    padding: 45px 0 60px;
   }
   .contact-form {
     width: 100%;

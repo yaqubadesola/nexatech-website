@@ -116,6 +116,7 @@ textarea {
 }
 
 .service-card {
+  margin:0;
   display: flex;
   flex: 1 1 210px;
   flex-direction: column;

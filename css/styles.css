@@ -83,6 +83,24 @@ textarea {
   border-color: var(--blue-hover);
 }
 
+.back_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background: var(--blue);
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.back_to_top:hover{
+  background: var(--blue-hover);
+  font-size: 15px;
+}
+
 /* =========================================
    5. GENERAL SECTIONS
 ========================================= */

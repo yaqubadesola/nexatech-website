@@ -96,7 +96,12 @@ textarea {
   z-index: 1000;
 }
 
-.back_to_top:hover{
+.arrow_top {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.back_to_top:hover {
   background: var(--blue-hover);
   font-size: 15px;
 }
@@ -134,7 +139,7 @@ textarea {
 }
 
 .service-card {
-  margin:0;
+  margin: 0;
   display: flex;
   flex: 1 1 210px;
   flex-direction: column;

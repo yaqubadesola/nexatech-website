@@ -31,6 +31,9 @@
         /><label for="nav-toggle" class="burger"
           ><span></span><span></span><span></span
         ></label>
+
+        <!-- Navigation links -->
+
         <nav class="nav-links" aria-label="Main navigation">
           <a href="index.html">Home</a><a href="about.html">About</a
           ><a href="services.html">Services</a
@@ -38,7 +41,10 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main id="main">
+
+      <!-- Hero Section -->
+
       <section class="inner-hero">
         <div class="container">
           <p class="eyebrow">OUR EXPERTISE</p>
@@ -49,11 +55,14 @@
           </p>
         </div>
       </section>
+
+      <!-- Our Services Section -->
+
       <section class="section">
         <div class="container">
           <h2 class="section-title">Explore our services</h2>
           <div class="cards">
-            <article class="service-card">
+            <figure class="service-card">
               <!-- <div class="service-icon" aria-hidden="true">01</div> -->
               <img
                 class="service-art"
@@ -64,12 +73,16 @@
                 loading="lazy"
                 decoding="async"
               />
-              <h3>Web Development</h3>
-              <p>
-                Fast, accessible and responsive websites built for real people.
-              </p>
-            </article>
-            <article class="service-card">
+              <figcaption>
+                <h3>Web Development</h3>
+                <p>
+                  Fast, accessible and responsive websites built for real
+                  people.
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="service-card">
               <!-- <div class="service-icon" aria-hidden="true">02</div> -->
               <img
                 class="service-art"
@@ -80,10 +93,13 @@
                 loading="lazy"
                 decoding="async"
               />
-              <h3>Mobile Applications</h3>
-              <p>Intuitive mobile experiences that connect with customers.</p>
-            </article>
-            <article class="service-card">
+              <figcaption>
+                <h3>Mobile Applications</h3>
+                <p>Intuitive mobile experiences that connect with customers.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="service-card">
               <!-- <div class="service-icon" aria-hidden="true">03</div> -->
               <img
                 class="service-art"
@@ -94,10 +110,15 @@
                 loading="lazy"
                 decoding="async"
               />
-              <h3>UI/UX Design</h3>
-              <p>Thoughtful interfaces that make complex tasks feel simple.</p>
-            </article>
-            <article class="service-card">
+              <figcaption>
+                <h3>UI/UX Design</h3>
+                <p>
+                  Thoughtful interfaces that make complex tasks feel simple.
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="service-card">
               <!-- <div class="service-icon" aria-hidden="true">04</div> -->
               <img
                 class="service-art"
@@ -108,12 +129,16 @@
                 loading="lazy"
                 decoding="async"
               />
-              <h3>Digital Consulting</h3>
-              <p>Practical technology strategies for growing businesses.</p>
-            </article>
+              <figcaption>
+                <h3>Digital Consulting</h3>
+                <p>Practical technology strategies for growing businesses.</p>
+              </figcaption>
+            </figure>
+
           </div>
         </div>
       </section>
+
       <section class="section soft">
         <div class="container">
           <h2 class="section-title">How we work</h2>
@@ -137,6 +162,7 @@
           </div>
         </div>
       </section>
+
       <section class="cta-section">
         <div class="container">
           <div class="cta">
@@ -148,11 +174,23 @@
           </div>
         </div>
       </section>
+
     </main>
+    <a href="#main" class="back_to_top">Back To Top </a>
     <footer class="footer">
+
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
       <div class="container">
         <p>© 2026 NexaTech Solutions. Built with creativity and purpose.</p>
       </div>
+
     </footer>
+    
   </body>
 </html>

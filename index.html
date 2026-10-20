@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/nav.css" />
-
   </head>
   <body>
     <header class="site-header">
@@ -32,6 +31,8 @@
         /><label for="nav-toggle" class="burger"
           ><span></span><span></span><span></span
         ></label>
+
+        <!-- Navigation links -->
         <nav class="nav-links" aria-label="Main navigation">
           <a href="index.html">Home</a>
           <a href="about.html">About</a><a href="services.html">Services</a
@@ -39,7 +40,10 @@
         </nav>
       </div>
     </header>
-    <main>
+
+    <main id="main">
+      <!-- Hero Section -->
+
       <section class="hero">
         <div class="container hero-layout">
           <div class="hero-copy">
@@ -51,61 +55,25 @@
             </p>
             <a class="btn" href="contact.html">Get started</a>
           </div>
-          <div class="hero-art" aria-hidden="true">
-            <div class="hero-visual">
-              <div class="dashboard-card">
-                <div class="dashboard-header">
-                  <span class="window-dot dot-red"></span>
-                  <span class="window-dot dot-yellow"></span>
-                  <span class="window-dot dot-green"></span>
-                </div>
-
-                <div class="dashboard-body">
-                  <div class="dashboard-copy">
-                    <p>Revenue</p>
-                    <strong>$84.6K</strong>
-                  </div>
-
-                  <div class="chart" aria-hidden="true">
-                    <span class="bar bar-1"></span>
-                    <span class="bar bar-2"></span>
-                    <span class="bar bar-3"></span>
-                    <span class="bar bar-4"></span>
-                    <span class="bar bar-5"></span>
-                    <span class="bar bar-6"></span>
-                  </div>
-                </div>
-
-                <div class="insight-row">
-                  <div>
-                    <span>Growth</span>
-                    <strong>+24.8%</strong>
-                  </div>
-                  <div class="trend-pill">▲ 18.4%</div>
-                </div>
-              </div>
-
-              <div class="floating-panel panel-top">
-                <span class="panel-label">Engagement</span>
-                <strong>92%</strong>
-              </div>
-
-              <div class="floating-panel panel-bottom">
-                <span class="panel-label">Live users</span>
-                <strong>3.2k</strong>
-              </div>
-
-              <div class="orb orb-one"></div>
-              <div class="orb orb-two"></div>
-            </div>
+          <div class="hero-art">
+            <img
+              class="hero-image"
+              src="assets/hero-dashboard-illustration.svg"
+              alt="Analytics dashboard illustration"
+              width="590"
+              height="430"
+            />
           </div>
         </div>
       </section>
+
+      <!-- Home Services Section -->
+
       <section class="section home-services">
         <div class="container">
           <h2 class="section-title">What we do best</h2>
           <div class="cards">
-            <article class="service-card">
+            <figure class="service-card">
               <img
                 class="service-art"
                 src="assets/web-development.svg"
@@ -115,12 +83,16 @@
                 loading="lazy"
                 decoding="async"
               />
-              <h3>Web Development</h3>
-              <p>
-                Fast, accessible and responsive websites built for real people.
-              </p>
-            </article>
-            <article class="service-card">
+              <figcaption>
+                <h3>Web Development</h3>
+                <p>
+                  Fast, accessible and responsive websites built for real
+                  people.
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="service-card">
               <img
                 class="service-art"
                 src="assets/mobile-applications.svg"
@@ -130,10 +102,13 @@
                 loading="lazy"
                 decoding="async"
               />
-              <h3>Mobile Applications</h3>
-              <p>Intuitive mobile experiences that connect with customers.</p>
-            </article>
-            <article class="service-card">
+              <figcaption>
+                <h3>Mobile Applications</h3>
+                <p>Intuitive mobile experiences that connect with customers.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="service-card">
               <img
                 class="service-art"
                 src="assets/ui-ux-design.svg"
@@ -143,10 +118,15 @@
                 loading="lazy"
                 decoding="async"
               />
-              <h3>UI/UX Design</h3>
-              <p>Thoughtful interfaces that make complex tasks feel simple.</p>
-            </article>
-            <article class="service-card">
+              <figcaption>
+                <h3>UI/UX Design</h3>
+                <p>
+                  Thoughtful interfaces that make complex tasks feel simple.
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="service-card">
               <img
                 class="service-art"
                 src="assets/digital-consulting.svg"
@@ -156,12 +136,17 @@
                 loading="lazy"
                 decoding="async"
               />
-              <h3>Digital Consulting</h3>
-              <p>Practical technology strategies for growing businesses.</p>
-            </article>
+              <figcaption>
+                <h3>Digital Consulting</h3>
+                <p>Practical technology strategies for growing businesses.</p>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
+
+      <!--Quote Section -->
+
       <section class="quote">
         <div class="quote-inner">
           <blockquote>
@@ -171,6 +156,9 @@
           <p class="quote-author">— The NexaTech Team</p>
         </div>
       </section>
+
+      <!-- Call to Action Section -->
+
       <section class="cta-section">
         <div class="container">
           <div class="cta">
@@ -183,10 +171,22 @@
         </div>
       </section>
     </main>
+
+    <!-- Footer section  -->
+    <a href="#main" class="back_to_top">Back To Top </a>
     <footer class="footer">
+
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
       <div class="container">
         <p>© 2026 NexaTech Solutions. Built with creativity and purpose.</p>
       </div>
+      
     </footer>
   </body>
 </html>
